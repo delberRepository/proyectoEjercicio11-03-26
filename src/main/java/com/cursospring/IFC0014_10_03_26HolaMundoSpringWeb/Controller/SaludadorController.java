@@ -14,7 +14,7 @@ import java.util.List;
 
 
   @RestController
-  @RequestMapping("/saludos")
+  @RequestMapping("/")
   public class SaludadorController {
 
     @Autowired
