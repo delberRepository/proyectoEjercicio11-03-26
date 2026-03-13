@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Animal {
+public class Animalo {
     private String nombre;
     private String especie;
 }
