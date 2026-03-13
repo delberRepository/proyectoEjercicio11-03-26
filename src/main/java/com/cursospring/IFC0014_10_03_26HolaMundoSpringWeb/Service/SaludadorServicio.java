@@ -1,10 +1,12 @@
 package com.cursospring.IFC0014_10_03_26HolaMundoSpringWeb.Service;
 
 import com.cursospring.IFC0014_10_03_26HolaMundoSpringWeb.Model.Saludo;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class SaludadorServicio {
     public List<Saludo> getSaludos(String nombre){
         List<Saludo> saludos = new ArrayList<>();
